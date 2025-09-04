@@ -1,8 +1,7 @@
 print("1 - Add")
-print("1 - subtract")
-print("1 - Multiply")
-print("1 - Divide")
-print("Choose an operation")
+print("2 - subtract")
+print("3 - Multiply")
+print("4 - Divide")
 option =int(input("Choose an operation: "))
 
 if(option in [1,2,3,4]):
@@ -19,5 +18,6 @@ if(option in [1,2,3,4]):
         result = num1 // num2       
           
 else:
-    print("Invalid operation entered")
-print("The result of the operation is{}".format(result))
+    print("Invalid op1eration entered")
+
+print("The result of the operation is {}".format(result))
